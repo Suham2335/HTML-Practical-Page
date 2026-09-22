@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags Practical Example</title>
+    
+</head>
+<body>
+    <h1>My HTML Practical Page</h1>
+    <p>This page demonstrates different <b>HTML tags.</b></p>
+    <a href="URL_ABOUT_US">About |</a>
+    <a href="URL_Images_US">Images |</a>
+    <a href="URL_Table_US">Table |</a>
+    <h1> Heading 1</h1>
+    <h2> Heading 2</h2>
+    <h3> Heading 3</h3>
+    <h4> Heading 4</h4>
+    <h5> Heading 5</h5>
+    <h6> Heading 6</h6>
+
+    <p> This is a pragraph. HTML is used to create the structure of a webpage.</p>
+
+    <p>This is a <b>bold text.</b></p>
+    <p>This is <strong>important text.</strong></p>
+    <p>This is <i>italic text.</i></p>
+    <p>This is <em>emphasized text.</em> </p>
+    <p>This is <u>underlined text.</u> </p>
+    <p>This is <mark>highlighted text</mark></p>
+    <p>This is <small>small text.</small> </p>
+    <p>This is <del>deleted text.</del> </p>
+    <p>This is  <ins>inserted text.</ins></p>
+    <p>H<sub>2</sub>O</p>
+    <p>x<sup>2</sup></p>
+
+    <img src="https://media.istockphoto.com/id/1468830962/photo/attractive-young-female-university-student-using-a-laptop-while-studying.jpg?s=612x612&w=0&k=20&c=83aQUi8FwXMN1kqjfuM7oqZkckX05SebsBtemAn1kfc=" height="300px"width="300px">
+    <p>STudent Studying</p>
+
+    <h2>Links</h2>
+    <p>Visit <a href="https://google.com/">Google</a></p>
+    <p>Open in a new tab: <a href="https://github.com/" target="_blank">Github</a></p>
+
+    <h2>Unordered List</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol type="A">
+        <li>Open VS Code</li>
+        <li>Create HTML file</li>
+        <li>Write HTML code</li>
+        <li> Open in browser</li>
+    </ol>
+
+    <h2>Description List</h2>
+    <dl>
+        <dt>
+           HTMl
+           <dd>HyperText Markup Language</dd>
+        </dt>
+        <dt>
+           CSS
+           <dd>Cascading Style Sheets</dd>
+        </dt>
+    </dl>
+
+    <h2>Div and Span</h2>
+    <div>
+        <h3>Student Information</h3>
+        <span>My name is John.</span>
+    </div>
+
+    <h2>Student Table</h2>
+    <table border="20px">
+        <caption>Student Marks</caption>
+        <thead>
+            <th>Name</th>
+            <th>Student</th>
+            <th>Marks</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>HTMl</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>Sarah</td>
+                <td>CSS</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>JavaScript</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>Average</td>
+                <td></td>
+                <td>84.3</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <h1>Student Registration Form</h1>
+    <form action="" method="POST">
+  
+  <div>
+    <label for="full-name">Name:</label>
+    <input type="text" id="name" name="Name" required>
+  </div>
+
+  <div>
+    <label for="email-address">Email Address:</label>
+    <input type="email" id="email-address" name="email" required>
+  </div>
+
+  <div>
+    <label for="user-password">Password:</label>
+    <input type="password" id="user-password" name="password" minlength="8" required>
+  </div>
+
+  <div>
+    <label for="user-age">Age:</label>
+    <input type="number" id="user-age" name="age" min="1" max="120">
+  </div>
+
+  <div>
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dateOfBirth">
+  </div>
+  <br>
+
+  <fieldset>
+    <legend>Gender:</legend>
+    <label>
+      <input type="radio" name="gender" value="male"> Male
+    </label>
+    <label>
+      <input type="radio" name="gender" value="female"> Female
+    </label>
+    <label>
+      <input type="radio" name="gender" value="other"> Other
+    </label>
+  </fieldset>
+  <br>
+
+  <fieldset>
+    <legend>Skills:</legend>
+    <label>
+      <input type="checkbox" name="skills" value="html"> HTML
+    </label>
+    <label>
+      <input type="checkbox" name="skills" value="css"> CSS
+    </label>
+    <label>
+      <input type="checkbox" name="skills" value="javascript"> JavaScript
+    </label>
+  </fieldset>
+  <br>
+
+  <div>
+    <label for="course-select">Choose a Course:</label>
+    <select id="course-select" name="selectedCourse" required>
+      
+      <option value="" disabled selected>-- Please choose an option --</option>
+      
+   
+      <option value="Computing">Computing</option>
+      <option value="Software Eng">Software Engineering</option>
+      <option value="Web Development">Web Development</option>
+
+    </select>
+  </div>
+  <br>
+
+  <div>
+     <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" cols="100"></textarea>
+  </div>
+  <br>
+
+
+ <div>
+    <label >Upload File:</label>
+    <input type="file"  name="resume" accept=".pdf" required>
+  </div>
+
+  <br>
+  <div>
+    
+    <button type="submit">Submit</button>
+
+    
+    <button type="reset">Clear Form</button>
+  </div>
+  </form>
+
+  <br>
+
+  <h2>Quotation</h2>
+  <div>
+    <blockquote> The best way to learn programming is by writing code</blockquote>
+    <p>Someone said <q>Practice makes perfect.</q></p>
+  </div>
+
+  <h2>Code Example</h2>
+  <p> Example of an HTML Tag:</p>
+  <pre>
+    <p>Hello World</p>
+    This is preformatted text.
+  </pre>
+
+ 
+<h2>Audio Player Example</h2>
+<audio controls>
+  <source src="audio-file.mp3" type="audio/mpeg">
+  <source src="audio-file.ogg" type="audio/ogg">
+  Your browser does not support the audio element.
+</audio>
+
+
+<h2>Video Player Example</h2>
+<video width="640" height="360" controls poster="video-thumbnail.jpg">
+  <source src="video-file.mp4" type="video/mp4">
+  <source src="video-file.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video><h2>Details and Summary</h2>
+
+<details>
+    <summary>Click to learn about HTML</summary>
+    <p>HTML stands for HyperText Markup Language. It is used to structure content on web pages.</p>
+</details>
+
+<p>&copy; 2026 My HTML Practical Page</p>
+<p>Created for HTML practice.</p>
+
+
+</body>
+</html>
