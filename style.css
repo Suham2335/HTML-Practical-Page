@@ -1,0 +1,61 @@
+body {
+    margin: 10px;
+    font-family: "Times New Roman", serif;
+}
+
+header{
+    height: 50px;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    border-radius: 13px;
+    justify-content: center;
+    gap: 50px;
+}
+
+header img {
+    width: 80px;
+}
+
+nav a {
+    font-size: 18px;
+    margin: 3px;
+}
+
+.container {
+    width: 550px;
+    height: 575px;
+    background-color: #a59c9c;
+    border: 2px solid black;
+    margin: 63px auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 45px;
+}
+
+h1 {
+    color: #000080;
+    margin: 5px 0 28px;
+}
+
+h2 {
+    color: green;
+    margin: 22px 0;
+}
+
+.student-photo {
+    width: 135px;
+    height: 25px;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+ul {
+    text-align: left;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
